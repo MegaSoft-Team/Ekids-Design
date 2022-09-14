@@ -25,6 +25,7 @@
 .hidden-desktop { display: none !important;}
 .visible-desktop { display: inherit !important;}
 .visible-print { display: none !important;}
+.bottommargin { padding: 20px 30px 20px 30px;}
 @media print {
 	.visible-print { display: inherit !important;}
 	.hidden-print { display: none !important;}
@@ -1263,7 +1264,7 @@
 			.bigsocialblock__title { margin-bottom: 0;}
 
 			.photo-wall .pw-details [data-role="title"] { line-height: 24px;}
-			.kl-slideshow .kl-slideshow-safepadding { padding-top: 50px !important;}
+			.kl-slideshow .kl-slideshow-safepadding { padding-top: 30px !important;}
 
 			.flickrfeed { overflow: hidden; margin-bottom: 30px;}
 			.hover-box.hover-box-2 { margin-bottom: 15px;}
@@ -1727,7 +1728,23 @@
 			.kl-store-page .left_sidebar ul.products li.product, 
 			.kl-store-page .right_sidebar ul.products li.product { width: 100% !important;}
 		/**** end eCommerce ****/
-	
+
+		.searchBtn {margin-right:8px;}
+		.ws_prev {z-index: 10 !important;}
+		.ws_next {z-index: 10 !important;}
+		.ws-title {z-index: 1 !important;}
+		.ws_bullets {position: unset !important;}
+		.ws_bullets div {float: right !important;}
+		.w-cut {width: 100% !important;}
+		.col-sm-cus {width: 33% !important;}
+		.video-cus {padding-left: 0px !important;}
+		.w-108 div {float: right; width: 40%;}
+		.bottommargin { padding: 20px 5% 20px 5% !important;}
+		.entry{ max-width: 50%; margin-bottom: 10px !important;}
+		.hgSlickNav-next {float: right;}
+		.video-nav { margin-right: 5% !important; text-align: center;}
+		.video-nav .hgSlickNav-prev { float: left; }
+		.bottom-slide { padding-right: 5%; }
 	/*-----------------------------------------------------------------------------------*/
 	/*  end Kallyas EDIT
 	/*-----------------------------------------------------------------------------------*/
