@@ -1601,7 +1601,7 @@
 		.site-header[data-header-style="5"] .logo-container {min-width: auto;}
 
 		/* Header style 7 */
-		.site-header[data-header-style="7"] .logo-container {min-width: auto;}
+		.site-header[data-header-style="7"] .logo-container {min-width: none;}
 
 		/* Header style 10 */
 		.site-header[data-header-style="10"] .quote-ribbon {right: 15px;}
